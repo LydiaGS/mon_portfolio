@@ -28,7 +28,8 @@ li a:hover {
 }
 
 body {
-    background-image: url("../img/tunic_image_de_font.jpg") display: flex;
+    background-image: url("../img/tunic_image_de_font.jpg");
+    /*display: flex;*/
 }
 body {
     background-image: url("../img/font2.png");
@@ -159,7 +160,6 @@ span.copyright {
     font-size: 0.7em;
     text-align: center;
     bottom: 0;
-    v
 }
 
 .container {
@@ -225,7 +225,7 @@ input[type=submit]:hover {
     clear: both;
 }
 
-/* vertical line */
+
 .vl {
     position: absolute;
     left: 50%;
@@ -234,7 +234,7 @@ input[type=submit]:hover {
     height: 175px;
 }
 
-/* text inside the vertical line */
+
 .inner {
     position: absolute;
     top: 50%;
@@ -259,13 +259,9 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
-
-    /* hide the vertical line */
     .vl {
         display: none;
     }
-
-    /* show the hidden text on small screens */
     .hide-md-lg {
         display: block;
         text-align: center;
@@ -289,8 +285,6 @@ p {
     color: #062b16;
     font-family: Courier New, monospace;
     font-size: 2.5em;
-    font: size:2.5em;
-    rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -305,20 +299,59 @@ h2 {
 }
 
 .w3-card-4 {
-    text-align: center;
+justify-content: center;
     margin: auto;
-    display: flex: padding:50px;
+    display: flex;
+    padding:50px;
 }
 .w3-container {
     text-align: center;
     color: #062b16;
 
 }
+
 .level{
+    position: relative;
     text-align: center;
     color: var(--colorPara);
     font-family: Courier New, monospace;
 }
+ .level img{
+transition: 2s ease-in-out;
+border: solid 2px black;
+height: 100%;
+width: 100%px;
+background-color:green;
+animation-name: image;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+@keyframes image{
+    0%{
+        transform: rotateY(90deg)
+    }
+    25%{
+        transform: rotateX(180deg)
+    }
+    50%{
+        transform: rotateY(270deg)
+    }
+    75%{
+        transform: rotateX(360deg)
+    }
+    100%{
+        transform: rotateY(90deg)
+    }
+}
+/*img:hover{
+    transform: rotateY(360deg);
+    
+  }
+  /*img:hover{
+    transform: rotateX(180deg);
+    cursor: pointer;
+  }*/
 h5{
     text-align: center;
     color: var(--colorPara);
@@ -345,3 +378,4 @@ h2{
   h2:hover{
     color:plum;
   }
+  

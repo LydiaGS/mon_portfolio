@@ -26,8 +26,8 @@ li a:hover {
     background-color: white;
 }
 body{
-    background-image:url("../img/tunic_image_de_font.jpg")
-    display: flex;
+    background-image:url("../img/tunic_image_de_font.jpg");
+    /* display: flex; */
 }
 body {
     background-image: url("../img/font2.png");
@@ -152,7 +152,7 @@ span.copyright {
     line-height: 40px;
     font-size: 0.7em;
     text-align: center;
-    bottom:0;v
+    bottom:0;
 }
 input[type=text], select, textarea {
     width: 100%;

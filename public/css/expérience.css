@@ -29,7 +29,8 @@ li a:hover {
 }
 
 body {
-  background-image: url("../img/tunic_image_de_font.jpg") display: flex;
+  background-image: url("../img/tunic_image_de_font.jpg");
+ /* display: flex;*/
 }
 
 body {
@@ -292,7 +293,7 @@ span.copyright {
   font-size: 0.7em;
   text-align: center;
   bottom: 0;
-  v
+  
 }
 
 h2 {
@@ -363,17 +364,21 @@ h1 {
 
 @keyframes example {
   0%{
-    color: white;
+    color: #FFC0CB;
   }
   50%{
-    color: black;
+    color: 	#FFB6C1;
   }
   75%{
-    color: yellow;
+    color:#FF69B4;
   }
   100%{
-    color: red;
+    color:	#FF1493;
   }
 
 }
+nav ul li i{
+
+}
+
 
