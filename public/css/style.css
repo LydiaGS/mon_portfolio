@@ -37,7 +37,7 @@ body {
 
 h1 {
     text-align: center;
-    color:	#556B2F;
+    color:	var(--colorTitre);
     font-family: Courier New, monospace;
     font-size: 80px;
     font-size: 5.5em;
@@ -58,7 +58,7 @@ h1:hover{
   padding: 20px 0 30px 0;
 }
 
-/* style inputs and link buttons */
+
 input,
 .btn {
   width: 100%;
@@ -70,7 +70,8 @@ input,
   display: inline-block;
   font-size: 17px;
   line-height: 20px;
-  text-decoration: none; /* remove underline from anchors */
+  text-decoration: none; 
+  color: var(--colorPara);
 }
 
 input:hover,
@@ -78,7 +79,7 @@ input:hover,
   opacity: 1;
 }
 
-/* add appropriate colors to fb, twitter and google buttons */
+
 .fb {
   background-color: #3B5998;
   color: white;
@@ -94,7 +95,7 @@ input:hover,
   color: white;
 }
 
-/* style the submit button */
+
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -105,7 +106,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* Two-column layout */
+
 .col {
   float: left;
   width: 50%;
@@ -114,14 +115,14 @@ input[type=submit]:hover {
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* vertical line */
+
 .vl {
   position: absolute;
   left: 50%;
@@ -130,7 +131,7 @@ input[type=submit]:hover {
   height: 175px;
 }
 
-/* text inside the vertical line */
+
 .inner {
   position: absolute;
   top: 50%;
@@ -141,29 +142,29 @@ input[type=submit]:hover {
   padding: 8px 10px;
 }
 
-/* hide some text on medium and large screens */
+
 .hide-md-lg {
   display: none;
 }
 
-/* bottom container */
+
 .bottom-container {
   text-align: center;
   background-color: #666;
   border-radius: 0px 0px 4px 4px;
 }
 
-/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 650px) {
   .col {
     width: 100%;
     margin-top: 0;
   }
-  /* hide the vertical line */
+
   .vl {
     display: none;
   }
-  /* show the hidden text on small screens */
+
   .hide-md-lg {
     display: block;
     text-align: center;
@@ -186,7 +187,7 @@ span.copyright {
     padding: 20px 0 30px 0;
   }
   
-  /* style inputs and link buttons */
+
   input,
   .btn {
     width: 100%;
@@ -198,7 +199,7 @@ span.copyright {
     display: inline-block;
     font-size: 17px;
     line-height: 20px;
-    text-decoration: none; /* remove underline from anchors */
+    text-decoration: none;
   }
   
   input:hover,
@@ -206,7 +207,7 @@ span.copyright {
     opacity: 1;
   }
   
-  /* add appropriate colors to fb, twitter and google buttons */
+
   .fb {
     background-color: #3B5998;
     color: white;

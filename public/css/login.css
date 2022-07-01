@@ -40,7 +40,7 @@ ul {
   
   h1 {
     text-align: center;
-    color: #556B2F;
+    color: var(--colorTitre);
     font-family: Courier New, monospace;
     font-size: 80px;
     font-size: 5.5em;
@@ -325,7 +325,7 @@ ul {
   }
   
   h2 {
-    color: #062b16;
+    color: var(--coloPara);
   }
   
   .btn {
@@ -353,7 +353,7 @@ ul {
   
   h3 {
     text-align: center;
-    color: #6B8E23;
+    color:var(--colorPara);
     font-family: Courier New, monospace;
     font-size: 80px;
     font-size: 3.5em;
@@ -363,7 +363,7 @@ ul {
   }
   
   h3:hover {
-    color: black;
+    color: yellow;
   }
   img:hover{
     box-shadow: 0px 0px 0px 1500px var(--color);
