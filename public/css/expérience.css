@@ -377,8 +377,18 @@ h1 {
   }
 
 }
-nav ul li i{
-
+footer .pourcentage div {
+  display: flex;
+  justify-content: center;
+  border: solide black 3px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
 
+footer .pourcentage div h1 {
+  margin-left: 150px;
+  text-align: center;
+  color: white;
+}
 

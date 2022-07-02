@@ -300,7 +300,7 @@ ul {
     padding: 8px 10px;
   }
   
-  /
+
   .hide-md-lg {
     display: none;
   }
@@ -386,4 +386,18 @@ ul {
   img:hover{
     box-shadow: 0px 0px 0px 1500px var(--color);
   }
+  footer .pourcentage div {
+    display: flex;
+    justify-content: center;
+    border: solide black 3px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+footer .pourcentage div h1 {
+    margin-left: 150px;
+    text-align: center;
+    color: white;
+}
   

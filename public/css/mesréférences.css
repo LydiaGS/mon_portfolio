@@ -19,6 +19,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 li a:hover {
     background-color: #556B2F;
 }
@@ -31,6 +32,7 @@ body {
     background-image: url("../img/tunic_image_de_font.jpg");
     /*display: flex;*/
 }
+
 body {
     background-image: url("../img/font2.png");
     background-repeat: no-repeat;
@@ -39,7 +41,7 @@ body {
 
 h1 {
     text-align: center;
-    color:var(--colorTitre);
+    color: var(--colorTitre);
     font-family: Courier New, monospace;
     font-size: 80px;
     font-size: 5.5em;
@@ -47,19 +49,22 @@ h1 {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1:hover{
-    color:yellow ;
+
+h1:hover {
+    color: yellow;
 }
 
 * {
     box-sizing: border-box
 }
+
 .container {
     position: relative;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px 0 30px 0;
 }
+
 input,
 .btn {
     width: 100%;
@@ -78,6 +83,7 @@ input:hover,
 .btn:hover {
     opacity: 1;
 }
+
 .fb {
     background-color: #3B5998;
     color: white;
@@ -92,6 +98,7 @@ input:hover,
     background-color: #dd4b39;
     color: white;
 }
+
 input[type=submit] {
     background-color: #04AA6D;
     color: #062b16;
@@ -101,6 +108,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
 .col {
     float: left;
     width: 50%;
@@ -108,11 +116,13 @@ input[type=submit]:hover {
     padding: 0 50px;
     margin-top: 6px;
 }
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
 .vl {
     position: absolute;
     left: 50%;
@@ -120,6 +130,7 @@ input[type=submit]:hover {
     border: 2px solid #ddd;
     height: 175px;
 }
+
 .inner {
     position: absolute;
     top: 50%;
@@ -133,19 +144,23 @@ input[type=submit]:hover {
 .hide-md-lg {
     display: none;
 }
+
 .bottom-container {
     text-align: center;
     background-color: #666;
     border-radius: 0px 0px 4px 4px;
 }
+
 @media screen and (max-width: 650px) {
     .col {
         width: 100%;
         margin-top: 0;
     }
+
     .vl {
         display: none;
     }
+
     .hide-md-lg {
         display: block;
         text-align: center;
@@ -168,6 +183,7 @@ span.copyright {
     background-color: #556B2F;
     padding: 20px 0 30px 0;
 }
+
 input,
 .btn {
     width: 100%;
@@ -211,6 +227,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #556B2F;
 }
+
 .col {
     float: left;
     width: 50%;
@@ -248,6 +265,7 @@ input[type=submit]:hover {
 .hide-md-lg {
     display: none;
 }
+
 .bottom-container {
     text-align: center;
     background-color: #6B8E23;
@@ -259,9 +277,11 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+
     .vl {
         display: none;
     }
+
     .hide-md-lg {
         display: block;
         text-align: center;
@@ -299,51 +319,59 @@ h2 {
 }
 
 .w3-card-4 {
-justify-content: center;
+    justify-content: center;
     margin: auto;
     display: flex;
-    padding:50px;
+    padding: 50px;
 }
+
 .w3-container {
     text-align: center;
     color: #062b16;
 
 }
 
-.level{
+.level {
     position: relative;
     text-align: center;
     color: var(--colorPara);
     font-family: Courier New, monospace;
 }
- .level img{
-transition: 2s ease-in-out;
-border: solid 2px black;
-height: 100%;
-width: 100%px;
-background-color:green;
-animation-name: image;
-animation-duration: 10s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+
+.level img {
+    transition: 2s ease-in-out;
+    border: solid 2px black;
+    height: 100%;
+    width: 100%px;
+    background-color: green;
+    animation-name: image;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
-@keyframes image{
-    0%{
+
+@keyframes image {
+    0% {
         transform: rotateY(90deg)
     }
-    25%{
+
+    25% {
         transform: rotateX(180deg)
     }
-    50%{
+
+    50% {
         transform: rotateY(270deg)
     }
-    75%{
+
+    75% {
         transform: rotateX(360deg)
     }
-    100%{
+
+    100% {
         transform: rotateY(90deg)
     }
 }
+
 /*img:hover{
     transform: rotateY(360deg);
     
@@ -352,7 +380,7 @@ animation-direction: alternate;
     transform: rotateX(180deg);
     cursor: pointer;
   }*/
-h5{
+h5 {
     text-align: center;
     color: var(--colorPara);
     font-family: Courier New, monospace;
@@ -362,33 +390,65 @@ h5{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h5:hover{
-    color:greenyellow;
+
+h5:hover {
+    color: greenyellow;
 }
-h2{
+
+h2 {
     text-align: center;
-    color:	black;
+    color: black;
     font-family: Courier New, monospace;
     font-size: 80px;
     font-size: 3.5em;
     font-size: 3.5rem;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
-  h2:hover{
-    color:plum;
-  }
-  footer .pourcentage div{
+}
+
+h2:hover {
+    color: plum;
+}
+
+footer .pourcentage div {
     display: flex;
     justify-content: center;
     border: solide black 3px;
     height: 100%;
     width: 100%;
     background-color: black;
-  }
-  footer .pourcentage div h1{
+}
+
+footer .pourcentage div h1 {
     margin-left: 150px;
     text-align: center;
     color: white;
+}
+div[role="progressbar"] {
+    --size: 12rem;
+    --fg:black;
+    --bg: white;
+    --pgPercentage: var(--value);
+    animation: growProgressBar 6s 2 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: 
+      radial-gradient(closest-side, #6B8E23 80%, transparent 0 99.9%, white 0),
+      conic-gradient(var(--fg) calc(var(--pgPercentage) * 1%), var(--bg) 0)
+      ;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: calc(var(--size) / 5);
+    color: var(--fg);
   }
   
+  div[role="progressbar"]::before {
+    counter-reset: percentage var(--value);
+    content: counter(percentage) '%';
+  }
+  .cercle{
+   display: flex;
+  justify-content: center;
+  }
